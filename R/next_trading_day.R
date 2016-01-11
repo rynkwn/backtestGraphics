@@ -8,6 +8,7 @@
 
 next_trading_day <- function(d) {
   message(paste0("next_trading_day with parameter: \n", head(d), "\n\n"))
+
   stopifnot(inherits(d, "Date"))
   week <- seq(d + 1, d + 7, by = 1)
   as.Date(week[is_trading_day(week)][1])

@@ -68,6 +68,7 @@ cleanup_column <- function(x,
                            strategy.var,
                            substrategy.var,
                            portfolio.var){
+  
   message(paste0("cleanup_column with parameters: \n", 
                  "x: ", head(x), "\n",
                  "name.var: ", head(name.var), "\n", 

@@ -16,7 +16,7 @@
 slice_data <- function(x, input, capital.num){
   message(paste0("slice_data with parameter: \n", 
                  "x: ", head(x), "\n",
-                 "input: ", head(input), "\n",
+                 #"input: ", head(input), "\n",
                  "capital.num: ", head(capital.num), "\n\n"))
   
   ## Set up vatiables to fool R CMD check

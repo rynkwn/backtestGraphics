@@ -9,6 +9,7 @@
 #' @return trade.freq The number that indicates the trading frequency. 
 
 trade_freq <- function(x){
+  
   message(paste0("trade_freq with parameter: \n", head(x), "\n\n"))
   
   date.unique <- sort(unique(x$date))
