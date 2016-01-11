@@ -1,3 +1,5 @@
+NOTE FROM RYAN: A modified version of the original package. Specifially, this version notifies the user through console whenever a function is called, as well as what `head(parameters)` were passed to it. Should make some level of deciphering easier.
+
 ![](bg1.png)
 
 Authors
